@@ -10,9 +10,9 @@ public class ConnectionProvider {
 	public static Connection getConnection() {
 		
 		try {
-			final String URL = "jdbc:mysql://localhost:3306/company";
-		    final String USER = "root";
-		    final String PASSWORD = "pushkarpan6123";
+			final String URL = "jdbc:mysql://localhost:3306/your_database_name";
+		    final String USER = "your_username";
+		    final String PASSWORD = "your_password";
 		    
 			if(con==null) {
 				
